@@ -1,11 +1,28 @@
 {
-  "name": "commander-options-builder",
+  "name": "@mariuszpiela/commander-options-builder",
   "version": "1.0.0",
-  "description": "Wrapper for commander package",
+  "description": "Options builder for commander",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMSolution/commander-options-builder.git"
+  },
+  "keywords": [
+    "commander",
+    "options",
+    "builder"
+  ],
+  "author": "Mariusz Piela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TMSolution/commander-options-builder/issues"
+  },
+  "homepage": "https://github.com/TMSolution/commander-options-builder#readme",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "fs": "0.0.1-security"
+  }
 }
